@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "Event I.",
+        "date": "2022-02-10",
+        "classNames": ["main-event"],
+        "extendedProps": {
+            "place": "Budapest, Intercontinental Budapest",
+            "guestsNumber": 200,
+            "website": "https://test.com",
+            "type": "event"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Hungarian holiday I.",
+        "date": "2022-02-12",
+        "classNames": ["hungarian-holiday"],
+        "extendedProps": {
+            "type": "hungarian-holiday"
+        }
+    },
+    {
+        "id": 3,
+        "title": "International holiday I.",
+        "start": "2022-02-13",
+        "end": "2022-02-16",
+        "classNames": ["international-holiday"],
+        "extendedProps": {
+            "type": "international-holiday"
+        }
+    },
+    {
+        "id": 4,
+        "title": "International holiday II.",
+        "start": "2022-02-21",
+        "end": "2022-02-24",
+        "classNames": ["international-holiday"],
+        "extendedProps": {
+            "type": "international-holiday"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Other event I.",
+        "start": "2022-02-25",
+        "end": "2022-02-25",
+        "classNames": ["other-event"],
+        "extendedProps": {
+            "type": "other-event"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Event II.",
+        "date": "2022-02-10",
+        "classNames": ["main-event"],
+        "extendedProps": {
+            "place": "Szeged, Intercontinental Szeged",
+            "guestsNumber": 100,
+            "website": "https://szeged.com",
+            "type": "event"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Event III.",
+        "date": "2022-02-10",
+        "classNames": ["main-event"],
+        "extendedProps": {
+            "place": "Debrecen, Intercontinental Debrecen",
+            "guestsNumber": 120,
+            "website": "https://debrecen.com",
+            "type": "event"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Event IV.",
+        "date": "2022-02-10",
+        "classNames": ["main-event"],
+        "extendedProps": {
+            "place": "Győr, Intercontinental Győr",
+            "guestsNumber": 50,
+            "website": "https://gyor.com",
+            "type": "event"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Event V.",
+        "date": "2022-02-10",
+        "classNames": ["main-event"],
+        "extendedProps": {
+            "place": "Sopron, Intercontinental Sopron",
+            "guestsNumber": 30,
+            "website": "https://sopron.com",
+            "type": "event"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Hungarian holiday II.",
+        "date": "2022-03-15",
+        "classNames": ["hungarian-holiday"],
+        "extendedProps": {
+            "type": "hungarian-holiday"
+        }
+    }
+]

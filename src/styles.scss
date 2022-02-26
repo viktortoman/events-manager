@@ -1,1 +1,107 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.international-holiday,
+.fc-agenda .international-holiday.fc-event-time,
+.international-holiday a {
+    background-color: #00B5E0 !important;
+    border-color: #00B5E0 !important;
+}
+
+.main-event,
+.fc-agenda .main-event.fc-event-time,
+.main-event a {
+    background-color: #02B442 !important;
+    border-color: #02B442 !important;
+}
+
+.hungarian-holiday,
+.fc-agenda .hungarian-holiday.fc-event-time,
+.hungarian-holiday a {
+    background-color: #E20048 !important;
+    border-color: #E20048 !important;
+}
+
+.other-event,
+.fc-agenda .other-event.fc-event-time,
+.other-event a {
+    background-color: #001489 !important;
+    border-color: #001489 !important;
+}
+
+.fc-button {
+    box-shadow: none !important;
+}
+
+.fc-prev-button {
+    background-color: transparent !important;
+    border: none !important;
+
+    .fc-icon {
+        color: #001489 !important;
+    }
+}
+
+.fc-next-button {
+    background-color: transparent !important;
+    border: none !important;
+
+    .fc-icon {
+        color: #001489 !important;
+    }
+}
+
+.fc-daygrid-event-harness:hover {
+    cursor: pointer;
+}
+
+.my-dialog {
+    .mat-dialog-container {
+        background: white;
+        color: black;
+    }
+
+    .fa-times {
+        font-size: 20px;
+    }
+}
+
+.cdk-overlay-pane.my-dialog {
+    position: relative !important;
+}
+
+.close.mat-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    line-height: 14px;
+    min-width: auto;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.square {
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+}
+
+.square-event {
+    background: #02B442;
+}
+
+.square-hungarian-holiday {
+    background: #E20048;
+}
+
+.square-international-holiday {
+    background: #00B5E0;
+}
+
+.square-other-event {
+    background: #001489;
+}

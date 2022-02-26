@@ -1,0 +1,18 @@
+<button class="close" mat-button (click)="close()">
+    <i class="fa fa-times" aria-hidden="true"></i>
+</button>
+<h1 mat-dialog-title>
+    <div style="display: flex;">
+        <div class="square" [ngClass]="'square-' + extendedProps.type"></div>
+        <div>{{ data.title }}</div>
+    </div>
+</h1>
+<div mat-dialog-content>
+    <p *ngIf="!data.end">{{ formatDate(data.start, null) }}</p>
+    <p *ngIf="data.end">{{ formatDate(data.start, data.end) }}</p>
+    <div *ngIf="extendedProps.type == 'event'">
+        <strong>{{ extendedProps.place }}</strong>
+        <p>Number of guest: {{ extendedProps.guestsNumber }}</p>
+        <a href="{{ extendedProps.website }}" target="_blank">{{ extendedProps.website }}</a>
+    </div>
+</div>
